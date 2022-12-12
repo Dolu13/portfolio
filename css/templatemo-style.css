@@ -293,6 +293,7 @@ a:hover, a:active, a:focus {
     letter-spacing: 1px;
     text-transform: uppercase;
     line-height: 40px;
+    padding-left: 10px;
     transition: all 0.4s ease-in-out;
 }
 
@@ -339,6 +340,9 @@ a:hover, a:active, a:focus {
 
 }
 
+.custom-navbar .navbar-right{
+  padding-left: 150px;
+}
 
 
 /*---------------------------------------
