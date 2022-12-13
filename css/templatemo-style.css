@@ -541,6 +541,9 @@ a:hover, a:active, a:focus {
   font-weight: bold;
 }
 
+.brr{
+  margin: 20px;
+}
 
 
 /*---------------------------------------
@@ -583,6 +586,9 @@ a:hover, a:active, a:focus {
 .icones ul{
   width: 50px;
 }
+.passion p{
+  color: #f1e2d7;
+}
 
 
 
@@ -591,7 +597,7 @@ a:hover, a:active, a:focus {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  gap: 90px;
+  column-gap: 90px;
 }
 
 .passion ul{
