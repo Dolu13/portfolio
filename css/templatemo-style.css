@@ -271,6 +271,9 @@ a:hover, a:active, a:focus {
     Navigation section              
 -----------------------------------------*/
 
+.navbar-brand{
+  size: 10%;
+}
 .custom-navbar {
     margin-bottom: 0;
     /*margin-left: 100px;*/
@@ -381,7 +384,47 @@ a:hover, a:active, a:focus {
   padding: 0 45px 0 45px;
 }
 
+.container{
+  font-size: 130%;
+}
+.neon {
+  animation: neon 10s linear infinite;
+  -moz-animation: neon 10s linear infinite;
+  -webkit-animation: neon 10s linear infinite;
+  -o-animation: flux 10s linear infinite;
+}
 
+@keyframes neon {
+  0%,
+  50% {
+    text-shadow: 0 0 1vw #f1e2d7, 0 0 3vw #f1e2d7, 0 0 10vw #f1e2d7, 0 0 10vw #f1e2d7, 0 0 .4vw #e5e2e0, .5vw .5vw .1vw #e5b898;
+    color: #E9724C;
+  }
+  10% {
+    text-shadow: 0 0 .5vw #E9724C, 0 0 1.5vw #E9724C, 0 0 5vw #E9724C, 0 0 5vw #E9724C, 0 0 .2vw #E9724C, .5vw .5vw .1vw #75341f;
+    color: #E9724C;
+  }
+}
+
+.flux {
+  text-align: center;
+  animation: flux 7s linear infinite;
+  -moz-animation: flux 7s linear infinite;
+  -webkit-animation: flux 7s linear infinite;
+  /*-o-animation: flux 7s linear infinite;*/
+}
+
+@keyframes flux {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #f1e2d7, 0 0 3vw #f1e2d7, 0 0 10vw #f1e2d7, 0 0 10vw #f1e2d7, 0 0 .4vw #e5e2e0, .5vw .5vw .1vw #e5b898;
+    color: #E3AE57;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #E9724C, 0 0 1.5vw #E9724C, 0 0 5vw #E9724C, 0 0 5vw #E9724C, 0 0 .2vw #E9724C, .5vw .5vw .1vw #75341f;
+    color: #E3AE57;
+  }
+}
 
 /*---------------------------------------
    About section              
@@ -389,11 +432,13 @@ a:hover, a:active, a:focus {
 
 #about .about-img {
     background: url('../images/about-img.jpg') no-repeat;
+    
 }
 
 #about .about-thumb,
 #about .skill-thumb {
   padding: 22px 32px 32px 32px;
+  padding-bottom: 0px;
 }
 
 #about .progress {
@@ -503,31 +548,54 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #quotes {
-    background: url('../images/quotes-bg.jpg') 50% 0 repeat-y fixed;
+    background: url('../images/quotes-bg.jpg') 100% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
     color: #ffffff;
+
     position: relative;
-    padding: 100px 0px;
+    padding: 50px 100px;
+    opacity: 1;
 }
 
 #quotes .overlay {
     background: #121212;
-    width: 100%;
-    height: 100%;
     position: absolute;
     top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
     opacity: 0.7;
 }
 
 #quotes .fa {
   font-size: 42px;
   margin-top: 32px;
-  margin-bottom: 22px;
+  margin-bottom: 0px;
 }
 
-#quotes p {
-  padding-top: 32px;
+.icones{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.icones ul{
+  width: 50px;
+}
+
+
+
+
+.passion{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 90px;
+}
+
+.passion ul{
+  width: 100%;
 }
 
 
