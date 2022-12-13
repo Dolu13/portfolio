@@ -435,6 +435,10 @@ a:hover, a:active, a:focus {
     
 }
 
+#about .text-apropos p{
+  font-weight: bold;
+  color: black;
+}
 #about .about-thumb,
 #about .skill-thumb {
   padding: 22px 32px 32px 32px;
