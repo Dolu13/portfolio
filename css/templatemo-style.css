@@ -397,11 +397,11 @@ a:hover, a:active, a:focus {
 @keyframes neon {
   0%,
   50% {
-    text-shadow: 0 0 1vw #f1e2d7, 0 0 3vw #f1e2d7, 0 0 10vw #f1e2d7, 0 0 10vw #f1e2d7, 0 0 .4vw #e5e2e0, .5vw .5vw .1vw #e5b898;
+    /*text-shadow: 0 0 1vw #f1e2d7, 0 0 3vw #f1e2d7, 0 0 10vw #f1e2d7, 0 0 10vw #f1e2d7, 0 0 .4vw #e5e2e0, .5vw .5vw .1vw #e5b898;*/
     color: #E9724C;
   }
   10% {
-    text-shadow: 0 0 .5vw #E9724C, 0 0 1.5vw #E9724C, 0 0 5vw #E9724C, 0 0 5vw #E9724C, 0 0 .2vw #E9724C, .5vw .5vw .1vw #75341f;
+    /*text-shadow: 0 0 .5vw #E9724C, 0 0 1.5vw #E9724C, 0 0 5vw #E9724C, 0 0 5vw #E9724C, 0 0 .2vw #E9724C, .5vw .5vw .1vw #75341f;*/
     color: #E9724C;
   }
 }
@@ -417,11 +417,11 @@ a:hover, a:active, a:focus {
 @keyframes flux {
   0%,
   100% {
-    text-shadow: 0 0 1vw #f1e2d7, 0 0 3vw #f1e2d7, 0 0 10vw #f1e2d7, 0 0 10vw #f1e2d7, 0 0 .4vw #e5e2e0, .5vw .5vw .1vw #e5b898;
+    /*text-shadow: 0 0 1vw #f1e2d7, 0 0 3vw #f1e2d7, 0 0 10vw #f1e2d7, 0 0 10vw #f1e2d7, 0 0 .4vw #e5e2e0, .5vw .5vw .1vw #e5b898;*/
     color: #E3AE57;
   }
   50% {
-    text-shadow: 0 0 .5vw #E9724C, 0 0 1.5vw #E9724C, 0 0 5vw #E9724C, 0 0 5vw #E9724C, 0 0 .2vw #E9724C, .5vw .5vw .1vw #75341f;
+    /*text-shadow: 0 0 .5vw #E9724C, 0 0 1.5vw #E9724C, 0 0 5vw #E9724C, 0 0 5vw #E9724C, 0 0 .2vw #E9724C, .5vw .5vw .1vw #75341f;*/
     color: #E3AE57;
   }
 }
