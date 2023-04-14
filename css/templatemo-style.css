@@ -471,18 +471,56 @@ a:hover, a:active, a:focus {
 
 #service {
   background: #E9724C;
+  margin: 0 auto;
+
+}
+#service .lastest{
+  width: 50%;
 }
 
+#service > h3{
+
+  width: 100%;
+ 
+  right: 25%;
+  margin: 0 auto;
+  color: black;
+}
+
+#service .un{
+  width: 100%;
+  height: 30px;
+  margin: 0 auto;
+  position: inherit;
+}
+#service .deux{
+  position: inherit;
+  width: 100%;
+  height: 20px;
+
+  color: wheat;
+}
 #service h1{
   padding-top: 1%;
-  background-color: #f1e2d7;
+  background-color: #d9edf7;
   margin: 0;
 }
-
+/*
 #service p {
   font-size: 18px;
   line-height: 30px;
+}*/
+#service .desc {
+  color: white;
+  position: relative;
+  opacity: 0.3;
 }
+
+#service .desc:hover {
+  background: #ab5d3e;
+  opacity: 1;
+}
+
 
 #service .service-thumb {
   padding: 52px 22px 52px 22px;
@@ -493,7 +531,15 @@ a:hover, a:active, a:focus {
   padding-bottom: 22px;
 }
 
+@keyframes opa {
+  from {
+    opacity: 0;
+  }
 
+  to {
+    opacity: 1;
+  }
+}
 
 
 /*---------------------------------------
@@ -518,6 +564,89 @@ a:hover, a:active, a:focus {
   font-weight: bold;
 }
 
+.box {
+  width: 100%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0);
+  padding: 35px;
+
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #ffffff;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #000000;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  z-index: 100;
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
 /*---------------------------------------
     Education section              
 -----------------------------------------*/
